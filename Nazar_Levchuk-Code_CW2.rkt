@@ -1,6 +1,6 @@
-;;Your full name: Nazar Levchuk (Partner B), Roman Lupuliak (Partner A)
-;;Student ID: Nazar - 001408115, Roman - 001427658
-;;Date of birth (day/month/year): Nazar Levchuk - 15/07/2006, Roman Lupuliak - 21/07/2005
+;;Your full name: Nazar Levchuk (Partner B)
+;;Student ID: Nazar - 001408115
+;;Date of birth (day/month/year): Nazar Levchuk - 15/07/2006
 
 ;;Data format: Name, Mother, Father, Date of birth, Date of death.
 ;;An empty list means Unknown.
