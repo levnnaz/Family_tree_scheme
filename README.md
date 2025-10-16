@@ -1,11 +1,15 @@
 # Family Tree Scheme Project
 
+---
+
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Features](#features)
 3. [Technologies Used](#technologies-used)
 4. [How to Run the Program](#how-to-run-the-program)
 5. [Summary](#summary)
+
+---
 
 ## Project Overview
 
@@ -50,6 +54,8 @@ The system provides the following functions:
 - **Partner A** — Implemented features A1–A6. (myself)  
 - **Partner B** — Implemented features B1–B6.  
 - Both partners collaborated on **C1–C3 (Shared Features)**.
+  
+---
 
 ## Technologies Used
 - **Language:** Racket / Scheme (`.rkt` file)
@@ -70,6 +76,9 @@ Run the main file using Racket:
 ```bash
 racket family_tree_code.rkt
 ```
+
+---
+
 ## Summary
 
 This project represents a comprehensive exploration of **functional programming** principles using the **Scheme** language.  
