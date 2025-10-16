@@ -5,8 +5,7 @@
 2. [Features](#features)
 3. [Technologies Used](#technologies-used)
 4. [How to Run the Program](#how-to-run-the-program)
-5. [File Structure](#file-structure)
-6. [Summary](#summary)
+5. [Summary](#summary)
 
 ## Project Overview
 
