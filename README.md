@@ -1,6 +1,14 @@
 # Family Tree Scheme Project
 
-## 📘 Project Overview
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [How to Run the Program](#how-to-run-the-program)
+5. [File Structure](#file-structure)
+6. [Summary](#summary)
+
+## Project Overview
 
 This project implements a **Family Tree System** in the **Scheme** programming language, developed in pair. 
 It models maternal and paternal branches of a family and provides multiple functions to process, query, and manipulate family data such as:
@@ -39,14 +47,14 @@ The system provides the following functions:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **Language:** Racket / Scheme (`.rkt` file)
 - **Paradigm:** Functional programming
 - **Main Concepts:** Recursion, list processing, higher-order functions, and data abstraction
 
 ---
 
-## 🚀 How to Run the Program
+## How to Run the Program
 
 Navigate to the project directory:
 
@@ -58,7 +66,7 @@ Run the main file using Racket:
 ```bash
 racket family_tree_code.rkt
 ```
-## 🧠 Summary
+## Summary
 
 This project demonstrates functional programming and data abstraction through a detailed implementation of a family tree system in Scheme.  
 It allows exploration of relationships, sorting, filtering, and data manipulation entirely using recursive and declarative techniques.
