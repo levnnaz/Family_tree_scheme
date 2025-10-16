@@ -1,44 +1,65 @@
-# Family Tree System (Scheme Implementation)
+# Family Tree Scheme Project
 
-## Project Overview
+## 📘 Project Overview
 
-This project is a **Family Tree Handling System** implemented in Scheme. It allows users to manage and query family data for both **maternal and paternal branches**. The system provides functions to retrieve family members, compute ages, find birthdays, sort names, and update personal information.
+This project implements a **Family Tree System** in the **Scheme** programming language, developed in pair. 
+It models maternal and paternal branches of a family and provides multiple functions to process, query, and manipulate family data such as:
 
----
+- Listing all members in both branches  
+- Identifying parents and children  
+- Calculating ages and average ages at death  
+- Sorting and filtering by names and birthdays  
+- Modifying records (e.g., changing a person’s name)
 
-## Features
-
-The system provides the following functions:
-
-| Feature | Description |
-|---------|-------------|
-| **C1** | List all members in the Maternal Branch. |
-| **C2** | List all members in the Paternal Branch. |
-| **C3** | List all members in both branches combined. |
-| **A1** | List all parents from a branch. |
-| **A2** | List living members of a branch. |
-| **A3** | Calculate current age of living members. |
-| **A4** | Find members with birthdays in a specific month. |
-| **A5** | Sort members by last name. |
-| **A6** | Change the first name of a member. |
-| **B1** | List children of members in a branch. |
-| **B2** | Find the oldest living member in a branch. |
-| **B3** | Calculate the average age at death of members. |
-| **B4** | Find members with birthdays in a specific month (branch-specific). |
-| **B5** | Sort members by first name. |
-| **B6** | Change a person’s first name recursively in the branch. |
+The program demonstrates recursion, higher-order functions, list processing, and functional programming techniques in Scheme.
 
 ---
 
-## Installation
+## 🧩 Features
 
-1. Ensure you have a Scheme interpreter installed (e.g., [Racket](https://racket-lang.org/)).
-2. Clone the repository:
+### **Shared Features (Both Partners)**
+- Combine maternal and paternal branches  
+- Return all members in the family tree (`C1–C3`)
 
-```bash
-git clone https://github.com/yourusername/family-tree-scheme.git
-```
-3.Navigate to the project directory:
+### **Partner A**
+- Extract all parents from the tree (`A1`)  
+- Find all living members (`A2`)  
+- Calculate current ages (`A3`)  
+- List members with birthdays in a given month (`A4`)  
+- Sort family members by last name (`A5`)  
+- Change a member’s first name (`A6`)
+
+### **Partner B**
+- Retrieve all children in the family tree (`B1`)  
+- Find the oldest living member (`B2`)  
+- Calculate the average age at death (`B3`)  
+- Filter members with the same birthday month (`B4`)  
+- Sort by first name (`B5`)  
+- Recursively change a name anywhere in the structure (`B6`)
+
+---
+
+## 🛠️ Technologies Used
+- **Language:** Racket / Scheme (`.rkt` file)
+- **Paradigm:** Functional programming
+- **Main Concepts:** Recursion, list processing, higher-order functions, and data abstraction
+
+---
+
+## 🚀 How to Run the Program
+
+Navigate to the project directory:
 
 ```bash
 cd family-tree-scheme
+```
+Run the main file using Racket:
+
+```bash
+racket family_tree_code.rkt
+```
+## 🧠 Summary
+
+This project demonstrates functional programming and data abstraction through a detailed implementation of a family tree system in Scheme.  
+It allows exploration of relationships, sorting, filtering, and data manipulation entirely using recursive and declarative techniques.
+
