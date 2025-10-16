@@ -1,7 +1,3 @@
-;;Your full name: Nazar Levchuk (Partner B)
-;;Student ID: Nazar - 001408115
-;;Date of birth (day/month/year): Nazar Levchuk - 15/07/2006
-
 ;;Data format: Name, Mother, Father, Date of birth, Date of death.
 ;;An empty list means Unknown.
 
