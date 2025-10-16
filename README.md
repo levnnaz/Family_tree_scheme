@@ -77,8 +77,3 @@ By modeling a multi-generational family tree, the program showcases how recursio
 
 The system allows users to analyze both **maternal** and **paternal** branches of the family, providing insights such as identifying parents, children, and living members, as well as sorting names, finding birthdays, and calculating ages and average lifespans.  
 Each feature demonstrates clear abstraction, modular design, and reusability, reflecting good programming practice and problem-solving through functional thinking.
-
-Beyond being an academic exercise, this project highlights how data manipulation, filtering, and transformation can be handled cleanly without mutable state, emphasizing the power and elegance of declarative programming in Scheme.
-
-
-
