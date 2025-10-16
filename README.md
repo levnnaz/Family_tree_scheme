@@ -68,5 +68,6 @@ racket family_tree_code.rkt
 ## Summary
 
 This project demonstrates functional programming and data abstraction through a detailed implementation of a family tree system in Scheme.  
-It allows exploration of relationships, sorting, filtering, and data manipulation entirely using recursive and declarative techniques.
+It enables exploration of relationships, sorting, filtering, and data manipulation entirely using recursive and declarative techniques.
+
 
