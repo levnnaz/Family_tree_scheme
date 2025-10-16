@@ -1,20 +1,44 @@
-<h1>Family tree in Scheme</h1>
+# Family Tree System (Scheme Implementation)
 
+## Project Overview
 
-<h2>Description</h2> This project is Scheme program which is family-tree handling system. It was designed in a pair.
-<br />
+This project is a **Family Tree Handling System** implemented in Scheme. It allows users to manage and query family data for both **maternal and paternal branches**. The system provides functions to retrieve family members, compute ages, find birthdays, sort names, and update personal information.
 
+---
 
-<h2>Languages and Utilities Used</h2>
+## Features
 
-- <b>Scheme
-- DrRacket</b> 
+The system provides the following functions:
 
-<h2>Environments Used </h2>
+| Feature | Description |
+|---------|-------------|
+| **C1** | List all members in the Maternal Branch. |
+| **C2** | List all members in the Paternal Branch. |
+| **C3** | List all members in both branches combined. |
+| **A1** | List all parents from a branch. |
+| **A2** | List living members of a branch. |
+| **A3** | Calculate current age of living members. |
+| **A4** | Find members with birthdays in a specific month. |
+| **A5** | Sort members by last name. |
+| **A6** | Change the first name of a member. |
+| **B1** | List children of members in a branch. |
+| **B2** | Find the oldest living member in a branch. |
+| **B3** | Calculate the average age at death of members. |
+| **B4** | Find members with birthdays in a specific month (branch-specific). |
+| **B5** | Sort members by first name. |
+| **B6** | Change a person’s first name recursively in the branch. |
 
-- <b>MacOS</b>
+---
 
-<h2>Program walk-through:</h2>
+## Installation
 
-- <b>Full Code </b>
-  - [Fam-tree full code](https://github.com/levnnaz/Family_tree_scheme/blob/main/Nazar_Levchuk-Code_CW2.rkt)
+1. Ensure you have a Scheme interpreter installed (e.g., [Racket](https://racket-lang.org/)).
+2. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/family-tree-scheme.git
+```
+3.Navigate to the project directory:
+
+```bash
+cd family-tree-scheme
