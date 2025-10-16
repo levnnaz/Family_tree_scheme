@@ -15,27 +15,27 @@ The program demonstrates recursion, higher-order functions, list processing, and
 
 ---
 
-## 🧩 Features
+## Features
 
-### **Shared Features (Both Partners)**
-- Combine maternal and paternal branches  
-- Return all members in the family tree (`C1–C3`)
+The system provides the following functions:
 
-### **Partner A**
-- Extract all parents from the tree (`A1`)  
-- Find all living members (`A2`)  
-- Calculate current ages (`A3`)  
-- List members with birthdays in a given month (`A4`)  
-- Sort family members by last name (`A5`)  
-- Change a member’s first name (`A6`)
-
-### **Partner B**
-- Retrieve all children in the family tree (`B1`)  
-- Find the oldest living member (`B2`)  
-- Calculate the average age at death (`B3`)  
-- Filter members with the same birthday month (`B4`)  
-- Sort by first name (`B5`)  
-- Recursively change a name anywhere in the structure (`B6`)
+| Feature | Description |
+|---------|-------------|
+| **C1** | List all members in the Maternal Branch. |
+| **C2** | List all members in the Paternal Branch. |
+| **C3** | List all members in both branches combined. |
+| **A1** | List all parents from a branch. |
+| **A2** | List living members of a branch. |
+| **A3** | Calculate current age of living members. |
+| **A4** | Find members with birthdays in a specific month. |
+| **A5** | Sort members by last name. |
+| **A6** | Change the first name of a member. |
+| **B1** | List children of members in a branch. |
+| **B2** | Find the oldest living member in a branch. |
+| **B3** | Calculate the average age at death of members. |
+| **B4** | Find members with birthdays in a specific month (branch-specific). |
+| **B5** | Sort members by first name. |
+| **B6** | Change a person’s first name recursively in the branch. |
 
 ---
 
