@@ -46,6 +46,11 @@ The system provides the following functions:
 
 ---
 
+## Partner Responsibilities
+- Partner A** — Implemented features A1–A6. (myself)  
+- Partner B** — Implemented features B1–B6.  
+- Both partners collaborated on **C1–C3 (Shared Features)**.
+
 ## Technologies Used
 - **Language:** Racket / Scheme (`.rkt` file)
 - **Paradigm:** Functional programming
